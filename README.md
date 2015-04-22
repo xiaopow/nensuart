@@ -41,18 +41,18 @@ HTML Structure
 | DELETE | /artists | delete a specific artist |
 
 ### [Admin](#admin)
-| this api is replaced by Users |---|---|
 | Method | Path | Description |
 |---|---|---|
+| this api is replaced by Users |---|---|
 | GET | /admin | List all admins, require admin authentication |
 | GET | /admin/{username} | List specific admin, require admin authentication |
 | POST | /admin | Create a new admin, require admin authentication |
 | DELETE | /admin/{username} | delete an admin, require admin authentication |
 
 ### [Admin Sessions](#adminSessions)
-| this api is replaced by User Sessions |---|---|
 | Method | Path | Description |
 |---|---|---|
+| this api is replaced by User Sessions |---|---|
 | POST | /admin/sessions | create a new admin session |
 | GET | /admin/authenicated | check if admin is authenticated |
 | DELETE | /admin/sessions | delete an admin session (Logout) |
@@ -76,9 +76,9 @@ HTML Structure
 | DELETE | /sessions | Delete a Session (Logout), activated when user clicks log out button, require authentication |
 
 ### [Cart](#cart)
-| this api is replaced by Orders |---|---|
 | Method | Path | Description |
 |---|---|---|
+| this api is replaced by Orders |---|---|
 | POST | /cart | Create a new cart, need to create session id |
 | GET | /cart | get the cart with session id stored in cookie |
 | GET | /cart/{id} | get a cart by id |
