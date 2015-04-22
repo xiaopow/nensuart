@@ -26,7 +26,7 @@ HTML Structure
 |---|---|---|
 | GET | /artworks | get all artworks, 10 items at a time, capability to scroll through 10 at a time for gallery.html page |
 | GET | /artworks/{id} | get a specific artwork by id, for product.html page |
-| GET | /artists/{name}/artwork | get all artworks of a specific artist, capability to scroll through 10 at a time, for artist.html and gallery.html page |
+| GET | /artworks/artist/{name} | get all artworks of a specific artist, capability to scroll through 10 at a time, for artist.html and gallery.html page |
 | POST | /artworks | add a new piece of artwork to database, require admin authentication |
 | PUT | /artworks | update data of a piece of artwork, require admin authentication |
 | DELETE | /artworks/{id} | delete a piece of artwork, require admin authentication |
