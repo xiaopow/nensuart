@@ -3,23 +3,23 @@
 HTML Structure
 
 ### [HTML Structure](#HTMLstructure)
-| html | description |---|
-|---|---|---|
-| index.html | homepage with large caruosel, featured artworks and featured artist |---|
-| gallery.html | to list out artwork in rows |---|
-|---| product.html | detail page of a single piece of artwork |
-| artists.html | list of artists and their short bio plus link to their artwork |---|
-|---| artist.html | detail page of a single artist |
-| cart.html | shopping cart |---|
-|---| checkout.html |---|
-| about.html | page about nensuart and contact information |---|
-| adminLogin.html | log in page for admin |---|
-|---| admin.html | admin page |
-|---| ad-orders.html | view and process orders |
-|---| ad-products.html | view and manage products |
-|---| ad-artists.html | view and manage artists |
-|---| ad-admin.html | view and manage admin accounts |
-|---| ad-users.html | view and manage user accounts |
+| html | description |
+|---|---|
+| index.html | homepage with large caruosel, featured artworks and featured artist |
+| gallery.html | to list out artwork in rows |
+| product.html | detail page of a single piece of artwork |
+| artists.html | list of artists and their short bio plus link to their artwork |
+| artist.html | detail page of a single artist |
+| cart.html | shopping cart |
+| checkout.html | checkout flow page |
+| about.html | page about nensuart and contact information |
+| adminLogin.html | log in page for admin |
+| admin.html | admin page |
+| ad-orders.html | view and process orders |
+| ad-products.html | view and manage products |
+| ad-artists.html | view and manage artists |
+| ad-admin.html | view and manage admin accounts |
+| ad-users.html | view and manage user accounts |
 
 ### [Artworks](#artwork)
 | Method | Path | Description |
