@@ -41,7 +41,7 @@ HTML Structure
 | DELETE | /artists | delete a specific artist |
 
 ### [Admin](#admin)
-| this api is replaced by Users |||
+| this api is replaced by Users |---|---|
 | Method | Path | Description |
 |---|---|---|
 | GET | /admin | List all admins, require admin authentication |
@@ -50,7 +50,7 @@ HTML Structure
 | DELETE | /admin/{username} | delete an admin, require admin authentication |
 
 ### [Admin Sessions](#adminSessions)
-| this api is replaced by User Sessions |||
+| this api is replaced by User Sessions |---|---|
 | Method | Path | Description |
 |---|---|---|
 | POST | /admin/sessions | create a new admin session |
@@ -76,7 +76,7 @@ HTML Structure
 | DELETE | /sessions | Delete a Session (Logout), activated when user clicks log out button, require authentication |
 
 ### [Cart](#cart)
-| this api is replaced by Orders |||
+| this api is replaced by Orders |---|---|
 | Method | Path | Description |
 |---|---|---|
 | POST | /cart | Create a new cart, need to create session id |
