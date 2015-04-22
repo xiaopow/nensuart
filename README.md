@@ -2,20 +2,18 @@
 
 HTML Structure
 
-| index.html | homepage with large caruosel, featured artworks and featured artist |
-
-| gallery.html | to list out artwork in rows |
+### [HTML Structure](#HTMLstructure)
+| html | description |---|
+|---|---|---|
+| index.html | homepage with large caruosel, featured artworks and featured artist |---|
+| gallery.html | to list out artwork in rows |---|
 |---| product.html | detail page of a single piece of artwork |
-
-| artists.html | list of artists and their short bio plus link to their artwork |
+| artists.html | list of artists and their short bio plus link to their artwork |---|
 |---| artist.html | detail page of a single artist |
-
-| cart.html | shopping cart |
-|---| checkout.html |
-
-| about.html | page about nensuart and contact information |
-
-| adminLogin.html | log in page for admin |
+| cart.html | shopping cart |---|
+|---| checkout.html |---|
+| about.html | page about nensuart and contact information |---|
+| adminLogin.html | log in page for admin |---|
 |---| admin.html | admin page |
 |---| ad-orders.html | view and process orders |
 |---| ad-products.html | view and manage products |
