@@ -15,6 +15,14 @@ cart.html // shopping cart
 
 about.html // page about nensuart and contact information
 
+adminLogin.html // log in page for admin
+  |-- admin.html // admin page
+        |-- ad-orders.html // view and process orders
+        |-- ad-products.html // view and manage products
+        |-- ad-artists.html // view and manage artists
+        |-- ad-admin.html // view and manage admin accounts
+        |-- ad-users.html // view and manage user accounts
+
 ### [Artworks](#artwork)
 | Method | Path | Description |
 |---|---|---|
@@ -53,23 +61,34 @@ about.html // page about nensuart and contact information
 | Method | Path | Description |
 |---|---|---|
 | GET | /users | List all users |
-| GET | /users/{username} | Retrieve a user |
+| GET | /users/{email} | Retrieve a user |
 | POST | /users | Create a new user |
-| PUT | /users/{username} | edit a user, require user or admin authentication |
-| DELETE | /users/{username} | delete a user, require user or admin authentication |
+| PUT | /users/{email} | edit a user, require user or admin authentication |
+| DELETE | /users/{email} | delete a user, require user or admin authentication |
 
 ### [User Sessions](#sessions)
 | Method | Path | Description |
 |---|---|---|
 | POST | /sessions | Create a new session, with or without user account|
+| PUT | /sessions | user sign in, check password, add user_id to anonymous session
 | GET | /authenticated | Check if you are authenticated |
-| DELETE | /sessions | Delete a Session (Logout), auto delete session upon closing browser if user not logged in |
+| DELETE | /sessions | Delete a Session, auto delete session upon closing browser if user not logged in |
+| DELETE | /sessions/user | Delete a Session (Logout), activated when user clicks log out button |
 
 ### [Cart](#cart)
 | Method | Path | Description |
 |---|---|---|
-| POST | /cart | Create a new cart, need to embed either session id |
+| POST | /cart | Create a new cart, need to create session id |
 | GET | /cart | get the cart with session id stored in cookie |
 | GET | /cart/{id} | get a cart by id |
 | PUT | /cart | edit the cart with session id stored in cookie |
 | DELETE | /cart | Delete a cart |
+
+### [Orders](#orders)
+| Method | Path | Description |
+|---|---|---|
+| POST | /orders | Create a new order, must contain items, mailing address, billing address, customer name, date, order status |
+| GET | /orders | get all orders |
+| GET | /orders/{id} | get a specific order by ID |
+| PUT | /orders | edit an order |
+| DELETE | /orders | Delete an order |
