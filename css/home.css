@@ -1,0 +1,61 @@
+.main-carousel {
+  z-index: -1;
+  width: 100vw;
+  padding-top: 100px;
+  min-height: 400px;
+  background-image: url(../assets/homepage/china-drum-cinemagraph.gif);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+}
+
+.carousel-header {
+  color: #fff;
+}
+
+.featured-artwork-box {
+  margin-top: 400px;
+  background-color: white;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-family: 'Times New Roman';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.featured-artwork-box img {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.featured-art {
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+.featured-art p {
+  line-height: 14px;
+  font-size: 13px;
+  color: #666;
+}
+.artwork-name {
+  font-size: 13px;
+}
+.artist-name, .artwork-year {
+  /*font-size: 12px;*/
+  font-weight: 200;
+}
+.artwork-medium {
+  font-size: 12px;
+  font-weight: 200;
+}
+.price {
+  float: right;
+}
+
