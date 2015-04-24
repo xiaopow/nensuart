@@ -5,6 +5,7 @@
     <!-- loading jquery library bootstrap jquery library and custom app.js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/requests.js"></script>
     <script src="js/home.js"></script>
     <!-- <script src="js/application.js"></script> -->
 
@@ -62,8 +63,10 @@
         <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
           <p class="text-center header">Featured artwork</p>
           <div class="featured-artwork-top">
-            <div class="col-xs-4 featured-art">
-              <img class="img-responsive col-xs-12" src="assets/artworks/1-bird.jpg">
+            <div class="col-sm-4 featured-art" id="featured-artwork-1">
+              <a href="#">
+                <img class="img-responsive col-xs-12" src="assets/artworks/1-bird.jpg">
+              </a>
               <p> 
                 <span class="artist-name">Zhu LiJuan</span><br>
                 <em>
@@ -73,8 +76,10 @@
                 <span class="price-tag"><span class="currency">HKD</span> <span class="price">100</span></span>
               </p>
             </div>
-            <div class="col-xs-4 featured-art">
-              <img class="col-xs-12" src="assets/artworks/2-bird.jpg">
+            <div class="col-sm-4 featured-art" id="featured-artwork-2">
+              <a href="#">
+                <img class="col-xs-12" src="assets/artworks/2-bird.jpg">
+              </a>
               <p> 
                 <span class="artist-name">Zhu LiJuan</span><br>
                 <em>
@@ -84,8 +89,10 @@
                 <span class="price-tag"><span class="currency">HKD</span> <span class="price">100</span></span>
               </p>
             </div>
-            <div class="col-xs-4 featured-art">
-              <img class="col-xs-12" src="assets/artworks/3-bird.jpg">
+            <div class="col-sm-4 featured-art" id="featured-artwork-3">
+              <a href="#">
+                <img class="col-xs-12" src="assets/artworks/3-bird.jpg">
+              </a>
               <p> 
                 <span class="artist-name">Zhu LiJuan</span><br>
                 <em>
@@ -97,8 +104,10 @@
             </div>  
           </div>
           <div class="featured-artwork-bot">
-            <div class="col-xs-6 featured-art">
-              <img class="col-xs-12" src="assets/artworks/3-lady.jpg">
+            <div class="col-sm-6 featured-art" id="featured-artwork-4">
+              <a href="#">
+                <img class="col-xs-12" src="assets/artworks/3-lady.jpg">
+              </a>
               <p> 
                 <span class="artist-name">Zhu LiJuan</span><br>
                 <em>
@@ -108,8 +117,10 @@
                 <span class="price-tag"><span class="currency">HKD</span> <span class="price">100</span></span>
               </p>
             </div>
-            <div class="col-xs-6 featured-art">
-              <img class="img-responsive col-xs-12" src="assets/artworks/2-dragonfly.jpg">
+            <div class="col-sm-6 featured-art" id="featured-artwork-5">
+              <a href="#">
+                <img class="img-responsive col-xs-12" src="assets/artworks/2-dragonfly.jpg">
+              </a>
               <p> 
                 <span class="artist-name">Zhu LiJuan</span><br>
                 <em>
@@ -118,6 +129,26 @@
                 <span class="artwork-medium">water colour on xuan paper</span>
                 <span class="price-tag"><span class="currency">HKD</span> <span class="price">100</span></span>
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="featured-artist-box container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+          <p class="text-center header">Featured artist</p>
+          <div class="featured-artist">
+            <div class="col-sm-6">
+              <img class="img-responsive" src="assets/artists/lijuan2.jpg">
+            </div>
+            <div class="col-sm-6">
+              <div class="bio">
+                <h4>Zhu Li Juan</h4>
+                <p>
+                  Over the years, Li Juan has moved between Zurich, Como, Hong Kong, and Chengdu in search of subjects and motivation for her paintings. With a natural flare for colour and years of training, Lijuan's art work effortlessly combines Western impressionism with Eastern art techniques to create pieces of great beauty and serenity.
+                </p>
+              </div>
             </div>
           </div>
         </div>

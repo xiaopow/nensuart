@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   getAllArtworks(function(artworks){
-    console.log(artworks);
     for (i=0, x=1; i<artworks.length; i++, x++) {
       if (x%3 == 0) {
         $('.artworks').append('<div class="col-sm-4 artwork-item"> \
