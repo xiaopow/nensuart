@@ -9,12 +9,12 @@ $(document).ready(function() {
             <img class="img-responsive" src="assets/artworks/'+artworks[i].img_url+'" alt=""> \
           </a> \
           <p> \
-            <span class="artwork-name">'+artworks[i].name+'</span><br> \
+            <span class="artist-name">'+artworks[i].artist+'</span><br> \
             <em> \
-              <span class="artist-name">'+artworks[i].artist+'</span>, <span class="artwork-year">'+artworks[i].year+'</span> \
+              <span class="artwork-name">'+artworks[i].name+'</span>, <span class="artwork-year">'+artworks[i].year+'</span> \
             </em><br> \
             <span class="artwork-medium">'+artworks[i].medium+'</span> \
-            <span class="price text-right">$ '+artworks[i].price+'</span> \
+            <span class="price-tag"><span class="currency">HKD</span> <span class="price">'+artworks[i].price+'</span></span> \
           </p> \
         </div> \
         <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>'
@@ -25,12 +25,12 @@ $(document).ready(function() {
               <img class="img-responsive" src="assets/artworks/'+artworks[i].img_url+'" alt=""> \
             </a> \
             <p> \
-              <span class="artwork-name">'+artworks[i].name+'</span><br> \
+              <span class="artist-name">'+artworks[i].artist+'</span><br> \
               <em> \
-                <span class="artist-name">'+artworks[i].artist+'</span>, <span class="artwork-year">'+artworks[i].year+'</span> \
+                <span class="artwork-name">'+artworks[i].name+'</span>, <span class="artwork-year">'+artworks[i].year+'</span> \
               </em><br> \
               <span class="artwork-medium">'+artworks[i].medium+'</span> \
-              <span class="price text-right">$ '+artworks[i].price+'</span> \
+              <span class="price-tag"><span class="currency">HKD</span> <span class="price">'+artworks[i].price+'</span></span> \
             </p> \
           </div>' 
         );
